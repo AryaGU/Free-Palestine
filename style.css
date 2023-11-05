@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.flag {
+    width: 300px;
+    height: 180px;
+}
+
+.rectangle {
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: #f00;
+    clip-path: polygon(0 0, 0 100%, 60% 50%);
+}
+
+
+h2 {
+    bottom: 10px;
+    color: #222;
+    font-family: 'sans-serif', 'Poppins';
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+.line {
+    display: block;
+    width: 300px;
+    height: 60px;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: #fff;
+}
+
+.green {
+    background: green;
+}
